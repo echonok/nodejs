@@ -5,12 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gen-app": "tsc app.ts",
-    "start-server": "node app.js"
+    "start": "node app.js"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^18.16.14"
-  }
+  "license": "ISC"
 }
