@@ -42,7 +42,6 @@ const requestHandler = (req, res) => {
       res.write('<body><h1>Other page</h1></body>');
       res.write('</html>');
       return res.end();
-      break;
   }
 }
 
